@@ -11,6 +11,7 @@ node {
             registryName: 'jiesheacr', 
             resourceGroupName: 'jiesheacr', 
             tarball: '', 
+            dockerfile: 'samples/java/getting-started/webfrontend/Dockerfile.develop',
             timeout: 300   
     }
 
@@ -27,7 +28,6 @@ node {
             secretNamespace: 'jieshe', 
             sharedSpaceName: 'default', 
             spaceName: 'jieshe',
-            dockerfile: 'samples/java/getting-started/webfrontend/Dockerfile.develop',
             dockerCredentials: [[credentialsId: 'dockerhub']]
     }
 }
