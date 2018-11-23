@@ -14,7 +14,7 @@ node {
             helmChartLocation: 'samples/java/getting-started/webfrontend/charts/webfrontend', 
             imageRepository: 'jieshe/ads-private', 
             imageTag: 'latest', 
-            kubeconfigId: 'akskubeconfig', 
+            kubeconfigId: 'adskubeconfig', 
             resourceGroupName: 'jiesheaks', 
             secretName: 'registrysecret', 
             secretNamespace: 'jieshe', 
