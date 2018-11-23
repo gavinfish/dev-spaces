@@ -5,15 +5,10 @@ node {
 
     stage('build') {
         acrQuickTask azureCredentialsId: '438bf5b7-50d9-413d-876f-1f2ad7b1c650', 
-            gitPath: '', 
-            gitRepo: '', 
             imageNames: [[image: 'latest']], 
             registryName: 'jiesheacr', 
             resourceGroupName: 'jiesheacr', 
-            tarball: '', 
-            local: '.',
             dockerfile: 'samples/java/getting-started/webfrontend/Dockerfile.develop',
-            timeout: 300   
     }
 
     stage('deploy') {
