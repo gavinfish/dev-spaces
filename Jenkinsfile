@@ -9,7 +9,7 @@ node {
             registryName: 'jiesheacr', 
             resourceGroupName: 'jiesheacr', 
             local: 'samples/java/getting-started/webfrontend',
-            dockerfile: 'samples/java/getting-started/webfrontend/Dockerfile.develop'
+            dockerfile: 'Dockerfile.develop'
     }
 
     stage('deploy') {
