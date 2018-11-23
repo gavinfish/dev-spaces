@@ -8,7 +8,7 @@ node {
             imageNames: [[image: 'latest']], 
             registryName: 'jiesheacr', 
             resourceGroupName: 'jiesheacr', 
-            local: 'samples/java/getting-started/webfrontend',
+            local: 'samples/java/getting-started/webfrontend/.',
             dockerfile: 'Dockerfile.develop'
     }
 
