@@ -11,6 +11,7 @@ node {
             registryName: 'jiesheacr', 
             resourceGroupName: 'jiesheacr', 
             tarball: '', 
+            local: '.',
             dockerfile: 'samples/java/getting-started/webfrontend/Dockerfile.develop',
             timeout: 300   
     }
