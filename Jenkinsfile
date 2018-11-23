@@ -27,6 +27,7 @@ node {
             secretNamespace: 'jieshe', 
             sharedSpaceName: 'default', 
             spaceName: 'jieshe',
+            dockerfile: 'samples/java/getting-started/webfrontend/Dockerfile.develop',
             dockerCredentials: [[credentialsId: 'dockerhub']]
     }
 }
