@@ -4,7 +4,7 @@ node {
     }
 
     stage('build') {
-        acrQuickBuild azureCredentialsId: '438bf5b7-50d9-413d-876f-1f2ad7b1c650', 
+        acrQuickTask azureCredentialsId: '438bf5b7-50d9-413d-876f-1f2ad7b1c650', 
             gitPath: '', 
             gitRepo: '', 
             imageNames: [[image: 'latest']], 
